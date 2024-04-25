@@ -20,6 +20,16 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  
+}
+/* Style : h1,button,p */
+.carousel-caption h1{
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 0px #000000;
+}
+.carousel-caption p{
+  color: rgb(215, 215, 215);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 /* Declare heights because of positioning of img element */
@@ -46,6 +56,9 @@ body {
 
 /* Featurettes
 ------------------------- */
+.featurette H1{
+  color: rgb(255, 59, 98);
+}
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -57,6 +70,18 @@ body {
   letter-spacing: -.05rem;
 }
 
+
+/* ROW */
+.row h1{
+  color: rgb(255, 59, 98);
+  padding-bottom: 8%;
+}
+
+/* container */
+.footer{
+  display: flex;
+  justify-content: center;
+}
 /* rtl:end:remove */
 
 /* RESPONSIVE CSS

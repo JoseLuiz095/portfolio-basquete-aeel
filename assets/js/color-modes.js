@@ -4,6 +4,22 @@
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  */
 
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll(".nav-link");
+
+  links.forEach(function(link) {
+      link.addEventListener("click", function() {
+          // Remove a classe "active" de todos os links
+          links.forEach(function(item) {
+              item.classList.remove("active");
+          });
+
+          // Adiciona a classe "active" apenas ao link clicado
+          this.classList.add("active");
+      });
+  });
+});
+
 (() => {
   'use strict'
 
